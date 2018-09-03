@@ -628,7 +628,7 @@ export default class Relationship {
   }
 
   _updateLoadingPromise(promise, content) {
-    if (this._promiseProxy) {
+    if (this._promiseProxy && this._promiseProxy.get('isPending')) {
       if (content !== undefined) {
         this._promiseProxy.set('content', content);
       }

@@ -1,4 +1,6 @@
-## Ember Data [![Build Status](https://secure.travis-ci.org/emberjs/data.svg?branch=master)](http://travis-ci.org/emberjs/data) [![Code Climate](https://codeclimate.com/github/emberjs/data/badges/gpa.svg)](https://codeclimate.com/github/emberjs/data)
+## Ember Data Classic
+
+Ember Data with Classic behavior to use until [#5575](https://github.com/emberjs/data/issues/5575) is resolved.
 
 Ember Data is a library for robustly managing model data in your
 Ember.js applications.
@@ -19,23 +21,12 @@ Igor Terzic is currently the lead maintainer of Ember Data, while the rest
 of the core team include Yehuda Katz, Tom Dale, Brendan McLoughlin,
 Christoffer Persson and Stanley Stuart.
 
-## Using Ember Data
+## Using Ember Data Classic
 
-### Getting Ember Data
-
-Since version `2.3` ember-data is a proper Ember-CLI addon which can be added
-to your app via:
+### Getting Ember Data Classic
 
 ```no-highlight
-ember install ember-data
-```
-
-If you need to use a version of ember-data package `< 2.3`, you need to add the
-npm package and add the dependency via bower:
-
-```no-highlight
-npm install ember-data@v2.2.1 --save-dev
-bower install ember-data --save
+ember install ember-data-classic
 ```
 
 The latest passing build from the "master" branch is available on
